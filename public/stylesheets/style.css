@@ -1,17 +1,33 @@
+* {
+	-webkit-box-sizing: border-box;
+	padding: 0
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0 5px;
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-weight: bold
 }
 
 ul {
-	width: 300px;
+	width: 100%;
 	list-style: none;
 }
 li {
-	width: 100px;
+	width: 25%;
+	height: 100px;
 	float: left;
+	padding: 5px;
+	text-align: center;
 }
-
+a{
+	display: block;
+	padding-top: 30px;
+	height: 100%;
+	border: 1px solid #2e2e2e;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #303030;
+}
 .hidden{
 	display: none;
 }
