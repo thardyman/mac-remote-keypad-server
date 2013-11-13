@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+ul {
+	width: 300px;
+	list-style: none;
+}
+li {
+	width: 100px;
+	float: left;
+}
+
+.hidden{
+	display: none;
+}
