@@ -1,17 +1,20 @@
 * {
 	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	padding: 0
 }
 body {
   padding: 0 5px;
   font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
-	font-weight: bold
+	font-weight: bold;
+	background: #000;
 }
 
 ul {
 	width: 100%;
 	list-style: none;
 }
+
 li {
 	width: 25%;
 	height: 100px;
@@ -19,14 +22,20 @@ li {
 	padding: 5px;
 	text-align: center;
 }
+
 a{
 	display: block;
 	padding-top: 30px;
 	height: 100%;
-	border: 1px solid #2e2e2e;
+	border: 5px solid #2e2e2e;
 	border-radius: 10px;
 	text-decoration: none;
 	color: #303030;
+	background: #ccc;
+}
+
+a:active{
+	border-color: #ff0000
 }
 .hidden{
 	display: none;

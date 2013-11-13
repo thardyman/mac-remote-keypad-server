@@ -1,3 +1,4 @@
+var svg = require('../script/svg');
 
 var allkeys = [
 
@@ -19,7 +20,7 @@ var allkeys = [
 	{key:1, label:'1', id:'1'},
 	{key:2, label:'2', id:'2'},
 	{key:3, label:'3', id:'3'},
-	{key:13, label:'enter', id:'enter', type:'ascii'},
+	{key:13, label:svg.enter, id:'enter', type:'ascii'},
 
 	{key:',', label:',', id:'comma'},
 	{key:0, label:'0', id:'0'},
@@ -30,6 +31,4 @@ exports.getKeyById = function(keyId){
 	return allkeys.filter(function(item){return item.id === keyId})[0];
 }
 
-exports.raw = function(){
-	return allkeys;
-}
+exports.data = allkeys;

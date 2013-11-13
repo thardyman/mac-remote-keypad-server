@@ -4,5 +4,6 @@ block content
   ul
     each val in keyboard
       li(class='key-' + val.id)
-        a(href='keyhandler?key=' + val.id,target='key-sender')=val.label
+        a(href='keyhandler?key=' + val.id,target='key-sender')
+          !{val.label}
   iframe.hidden(name='key-sender')
