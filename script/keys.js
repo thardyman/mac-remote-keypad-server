@@ -1,11 +1,11 @@
-var svg = require('../script/svg');
+var svg = require('./svg');
 
 var allkeys = [
 
 	{key:8, label:'←', id:'delete', type:'ascii'},
 	{key:'=', label:'=', id:'equal'},
 	{key:'/', label:'/', id:'slash'},
-	{key:'\\*', label:'*', id:'star'},
+	{key:'*', label:'*', id:'star'},
 
 	{key:7, label:'7', id:'7'},
 	{key:8, label:'8', id:'8'},
